@@ -1,0 +1,27 @@
+PODS:
+  - ActiveLabel (0.7.0)
+  - Alamofire (4.2.0)
+  - DZNEmptyDataSet (1.8.1)
+  - ExpandingMenu (0.3.1)
+  - SwiftGifOrigin (1.6.1)
+  - SWXMLHash (3.0.3)
+
+DEPENDENCIES:
+  - ActiveLabel
+  - Alamofire (~> 4.0)
+  - DZNEmptyDataSet
+  - ExpandingMenu (~> 0.3)
+  - SwiftGifOrigin (~> 1.6.1)
+  - SWXMLHash (~> 3.0.0)
+
+SPEC CHECKSUMS:
+  ActiveLabel: eb405c5b99275be52fac161f7a55cab1dd672c54
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  ExpandingMenu: 107548f3cb8c04b28a8b6b436983f506849484cc
+  SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
+  SWXMLHash: 80d2529d74891bb2f15305a0b9e08f2a4f229ee7
+
+PODFILE CHECKSUM: 39569883696db4bebc71181cb1e057b390de24f1
+
+COCOAPODS: 1.0.1

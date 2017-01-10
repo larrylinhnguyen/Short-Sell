@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDStock" representedClassName="CDStock" syncable="YES" codeGenerationType="class">
+        <attribute name="symbol" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="cdwatch" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDWatch" inverseName="cdstock" inverseEntity="CDWatch" syncable="YES"/>
+    </entity>
+    <entity name="CDWatch" representedClassName="CDWatch" syncable="YES" codeGenerationType="class">
+        <attribute name="isWatch" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="cdstock" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDStock" inverseName="cdwatch" inverseEntity="CDStock" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CDStock" positionX="-27" positionY="18" width="128" height="75"/>
+        <element name="CDWatch" positionX="18" positionY="63" width="128" height="75"/>
+    </elements>
+</model>
